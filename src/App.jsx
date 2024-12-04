@@ -6,7 +6,7 @@ import Layout from './components/Layout';
 import ManageVendor from './components/ManageVendor';
 import Broadcast from './components/Broadcast';
 import InAppPoint from './components/InAppPoint';
-import Loginpage from './components/loginpage';
+import Loginpage from './components/Loginpage'
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import ProtectedRoute from './components/ProtectedRoute.jsx'; // Import ProtectedRoute
@@ -16,7 +16,7 @@ function App() {
     <Router>
       <Routes>
         {/* Public Route */}
-        <Route path="/" element={<Loginpage />} />
+        <Route path="/" element={<Loginpage/>} />
 
         {/* Protected Routes */}
         <Route
