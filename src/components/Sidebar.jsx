@@ -40,6 +40,7 @@ const Sidebar = () => {
                 isActive('/addvendor') ? 'border-l-4 border-yellow-500 bg-gray-100 h-12 text-yellow-300' : ''
               }`}
               onClick={() => handleNavigation('/addvendor')}
+              
             >
               <span className="text-black ml-3">Add Vendor</span>
             </li>
