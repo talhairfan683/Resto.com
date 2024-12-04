@@ -37,9 +37,9 @@ const Sidebar = () => {
           <ul className="mt-5 space-y-5">
             <li
               className={`flex items-center cursor-pointer ${
-                isActive('/add-vendor') ? 'border-l-4 border-yellow-500 bg-gray-100 h-12 text-yellow-300' : ''
+                isActive('/addvendor') ? 'border-l-4 border-yellow-500 bg-gray-100 h-12 text-yellow-300' : ''
               }`}
-              onClick={() => handleNavigation('/add-vendor')}
+              onClick={() => handleNavigation('/addvendor')}
             >
               <span className="text-black ml-3">Add Vendor</span>
             </li>
